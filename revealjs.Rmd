@@ -1,0 +1,25 @@
+---
+title: "revealjs test"
+output: 
+  revealjs::revealjs_presentation:
+    highlight: default
+    theme: serif
+    transition: default
+---
+
+# slide 1
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+# next section
+
+## 
+
+```{r}
+plot(cars)
+```
+

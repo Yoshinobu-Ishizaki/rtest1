@@ -1,0 +1,68 @@
+---
+title: "rmarkdown"
+author: "Yoshinobu Ishizaki"
+date: "2016年10月11日"
+output:
+  ioslides_presentation:
+    fig_caption: yes
+    fig_retina: null
+    smaller: yes
+  beamer_presentation: default
+  slidy_presentation: default
+---
+
+## Normal text
+Here is a text.
+
+Blank line makes a new paragraph.
+Without blank, sentenses continue.
+
+## Build {.build}
+Text will be created.
+Not line by line.
+
+With paragraph by paragraph.
+
+How about list items.
+
+- one
+- two  <!--- 2 spaces after line will create new paragraph---> 
+three
+- three
+
+## Items
+- one
+- two
+- three
+
+1. enumerates
+1. second
+1. third
+    i. indent
+    i. indent2 
+
+## Build items
+
+>- item 
+>- showing one by one
+>- item
+
+## Links
+
+[This](http://www.rstudio.com) is a link.
+
+## Footnotes 
+Here is a footnotes[^1].
+
+[^1]: footnote (does not work on ioslides?)
+
+## Image
+![image](springback-plot.pdf)
+
+PDF can be easily included.
+But does not work on web browser.
+
+## Image with size
+
+<img src = "springback-plot.pdf" width=600px ></img>
+
